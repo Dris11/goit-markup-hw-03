@@ -1,0 +1,256 @@
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #212121;
+}
+
+:root {
+    --brand-color: #2196f3;
+    --brand-color-dark: #212121;
+    --brand-color-light: #757575;
+    --brand-color-background: #2f303a;
+}
+
+.unstyled-list {
+    list-style: none;
+}
+
+/* HEADER STYLES */
+
+header {
+    background-color: white;
+}
+
+.header-logo-1 {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.logo-2 {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+.phone-nr,
+.email {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-light);
+}
+
+.portfolio-nav,
+.studio-nav,
+.contacts-nav {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-dark);
+}
+
+.studio-nav:hover,
+.portfolio-nav:hover,
+.contacts-nav:hover,
+.email:hover,
+.phone-nr:hover,
+.studio-nav:focus,
+.portfolio-nav:focus,
+.contacts-nav:focus,
+.email:focus,
+.phone-nr:focus {
+    color: var(--brand-color);
+}
+
+/* REQUEST SECTION STYLES */
+
+.request-section {
+    background-color: var(--brand-color-background);
+}
+
+.request-section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.request-button {
+    width: 200px;
+    height: 50px;
+
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+/* STRENGHTS SECTION */
+
+.strenghts-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--brand-color-dark);
+}
+
+.strenghts-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-light);
+}
+
+/* WHAT WE DO SECTION */
+
+.what-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-dark);
+}
+
+/* OUR TEAM SECTION */
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-dark);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-dark);
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-light);
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: var(--brand-color-background);
+}
+
+.footer-style {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+
+    color: #ffffff;
+}
+
+.phone-nr-footer,
+.email-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo-1 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.address:hover,
+.phone-nr-footer:hover,
+.email-footer:hover,
+.address:focus,
+.phone-nr-footer:focus,
+.email-footer:focus {
+    color: var(--brand-color);
+}
+
+/* PORTFOLIO FILTER SECTION */
+
+.p-button {
+    background-color: #f5f4fa;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-dark);
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.p-button:hover,
+.p-button:focus {
+    background-color: var(--brand-color);
+    color: #ffffff;
+}
+
+/* PORTFOLIO ELEMENTS SECTION */
+
+.p-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--brand-color-dark);
+}
+
+.p-type {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-light);
+}
