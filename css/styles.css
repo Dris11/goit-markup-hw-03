@@ -1,9 +1,4 @@
-body {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    color: #212121;
-}
+/* VARIABLES */
 
 :root {
     --brand-color: #2196f3;
@@ -12,13 +7,61 @@ body {
     --brand-color-background: #2f303a;
 }
 
+/* GLOBALS */
+
+* {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #212121;
+}
+
 .unstyled-list {
     list-style: none;
 }
 
 /* HEADER STYLES */
 
-header {
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-header {
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #ececec;
+}
+
+.navigation-list,
+.header-navigation {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navigation-list,
+.right-navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    gap: 50px;
+}
+
+.right-navigation-list {
+    gap: 40px;
+}
+
+.header {
     background-color: white;
 }
 
@@ -30,6 +73,8 @@ header {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: black;
+    display: flex;
+    align-items: center;
 }
 
 .logo-2 {
@@ -42,8 +87,7 @@ header {
     color: var(--brand-color);
 }
 
-.phone-nr,
-.email {
+.contact-list-item {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -52,9 +96,7 @@ header {
     color: var(--brand-color-light);
 }
 
-.portfolio-nav,
-.studio-nav,
-.contacts-nav {
+.nav-list-item {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -63,22 +105,22 @@ header {
     color: var(--brand-color-dark);
 }
 
-.studio-nav:hover,
-.portfolio-nav:hover,
-.contacts-nav:hover,
-.email:hover,
-.phone-nr:hover,
-.studio-nav:focus,
-.portfolio-nav:focus,
-.contacts-nav:focus,
-.email:focus,
-.phone-nr:focus {
+.nav-list-item:hover,
+.contact-list-item:hover,
+.nav-list-item:focus,
+.contact-list-item:focus {
     color: var(--brand-color);
 }
 
 /* REQUEST SECTION STYLES */
 
 .request-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+
     background-color: var(--brand-color-background);
 }
 
@@ -90,6 +132,7 @@ header {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 30px;
 }
 
 .request-button {
@@ -253,4 +296,9 @@ footer {
     letter-spacing: 0.03em;
 
     color: var(--brand-color-light);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
 }
