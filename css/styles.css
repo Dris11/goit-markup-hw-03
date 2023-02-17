@@ -32,15 +32,13 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
 }
 
 .page-header {
     display: flex;
-    height: 80px;
     border-bottom: 1px solid #ececec;
-    flex-grow: 1;
 }
 
 .navigation-list,
@@ -54,14 +52,6 @@ body {
 .right-navigation-list {
     display: flex;
     align-items: center;
-}
-
-.navigation-list {
-    gap: 50px;
-}
-
-.right-navigation-list {
-    gap: 40px;
 }
 
 .header {
@@ -78,6 +68,7 @@ body {
     color: black;
     display: flex;
     align-items: center;
+    margin: 24px 93px 25px auto;
 }
 
 .logo-2 {
@@ -97,6 +88,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-color-light);
+    margin: 32px auto 32px 40px;
 }
 
 .nav-list-item {
@@ -106,6 +98,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-color-dark);
+    margin: 32px 50px 32px 0px;
 }
 
 .nav-list-item:hover,
@@ -122,7 +115,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
 
     background-color: var(--brand-color-background);
 }
@@ -135,7 +127,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-bottom: 30px;
+    margin: 200px auto 30px auto;
 }
 
 .request-button {
@@ -152,6 +144,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     color: #ffffff;
+    margin-bottom: 200px;
 
     cursor: pointer;
 }
@@ -164,8 +157,7 @@ body {
 
 .strenghts-list {
     display: flex;
-    gap: 30px;
-    margin-top: 94px;
+    margin: 94px auto;
 }
 
 .strenghts-title {
@@ -201,7 +193,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    padding: 94px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
 
     color: var(--brand-color-dark);
 }
@@ -264,10 +256,13 @@ body {
 
 /* FOOTER STYLES */
 
+.footer-list-item {
+    padding-bottom: 12px;
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
-    height: 261px;
     background-color: var(--brand-color-background);
 }
 
