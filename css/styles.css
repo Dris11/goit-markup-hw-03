@@ -211,6 +211,7 @@ body {
 .team-list {
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 .team-section {
@@ -271,6 +272,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    font-style: normal;
 
     color: #ffffff;
 }
@@ -369,6 +371,6 @@ body {
 /*  */
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0px auto;
 }
