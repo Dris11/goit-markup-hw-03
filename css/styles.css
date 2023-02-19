@@ -55,6 +55,7 @@ body {
 
 .right-navigation-list {
     margin-left: 335px;
+    gap: 40px;
 }
 
 .header {
@@ -91,7 +92,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-color-light);
-    margin-right: 40px;
 }
 
 .nav-list-item {
